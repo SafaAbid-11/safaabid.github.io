@@ -7,7 +7,7 @@ btn_sendMail.addEventListener('click', (e) => {
     e.preventDefault();
     Email.send({
         SecureToken: "token",
-        To: 'gomriakrem1@gmail.com',
+        To: 'abidsafa.12@gmail.com',
         From: "sender mail",
         Subject: "Site web personnel : Avis de " + name_input.textcontent,
         Body: message_input.textcontent
